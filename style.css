@@ -1,0 +1,121 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.index{
+    background-image: url(bgb.jpg);
+    background-size: cover;
+    background-position:center;
+}
+header{
+color: rgb(78, 93, 52);
+text-align: center;
+padding-top: 70px;
+font-size: larger;
+height: 200px;
+}
+.container{
+    display: flex;
+    
+}
+.container1{
+margin: auto;
+margin-top: 3px;
+padding: 40px;
+width: 500px;
+height:500px;
+justify-content: space-evenly;
+box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.99);
+border-color: rgb(63, 116, 9);
+
+border-radius: 25px;
+}
+.container2{
+    margin: auto;
+    margin-top: 3px;
+    padding: 40px;
+    width: 500px;
+    height:500px;
+    justify-content: space-evenly;
+
+    border-color: rgb(63, 116, 9);
+    box-shadow: 0 40px 80px 0 rgb(34, 28, 28);
+    align-items: center;
+    border-radius: 25px;
+    }
+div p{
+    font-size:20px;
+    font-weight:400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px;
+}
+div button{
+justify-content: center;
+    padding:10px;
+    border-radius: 25px;
+    background-color: rgba(107, 203, 11, 0.619);
+    margin-left: 150px;
+    width:100px;
+}
+form{
+   margin: auto;
+   margin-top: 50px;
+   margin-left: 70px;
+   padding: 50px;
+   background-color: rgba(74, 128, 41, 0.915);
+   color: black;
+   font-size: medium;
+   font-weight: 300;
+   font: 1em sans-serif;
+   border: 20px;
+   border-radius: 45px;
+   box-shadow: 0 8px 8px 0 rgba(34, 28, 28, 0.2);
+   height: 600px;
+   width: 600px;
+   align-items: center;
+   justify-content: left;
+}
+#f{
+    text-align: center;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 25px;
+}
+.form{
+    margin: auto;
+    padding: 20px;
+    gap: 30px;
+    align-items:center;
+    justify-content: left;
+}
+#fbt{
+    justify-content: center;
+    padding:10px;
+    border-radius: 25px;
+    background-color: rgba(107, 203, 11, 0.619);
+    margin-left: 130px;
+    margin-top: 50px;
+    width:200px;
+}
+table{
+    align-items: center;
+    justify-content: center;
+    border-spacing: 20px;
+}
+.fm{
+    background-image: url(gb.jpg);
+    background-position: center;
+    background-size: cover;
+}
+td{
+    font-size:20px;
+    font-weight: bold;
+}
+input{
+  background-color: rgba(245, 245, 220, 0.496);
+}
+i{
+   background-color: yellow;
+}
